@@ -1,0 +1,50 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url("JujutsuKaisen.png");
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-size: cover;
+}
+/* Styles pour l'en-tête */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+}
+/* Styles pour les sections et les articles */
+section {
+    padding: 20px;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+}
+article {
+    margin-bottom: 20px;
+}
+/* Styles pour le pied de page */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+/* Styles pour les boutons */
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+}
+button:hover {
+    background-color: #555;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
